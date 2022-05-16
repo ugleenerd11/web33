@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="5; url=https://www.google.com/"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/localtest.css">
+    <link rel="stylesheet" href="preloader.css">
+</head>
+<body  onload="move()" style="margin: 0">
+    
+
+    <div >
+        <div>
+            <div class=" bounce">
+                <img 
+                  src="logo/Web3Ladies.svg"
+                  alt="loader image"
+                  style="height: 200px;width: 200px;"
+                />
+              </div>
+          <div id="myProgress" class="" style="margin-top: 25%"></div>
+  
+          <div id="myBar" class="mt-5">10%</div>
+        </div>
+      </div>
+
+
+
+      <div style="display: none" id="myDiv">
+
+      </div>
+
+
+          
+    <h1 style="text-align: center;display: none;">Counter</h1>
+</body>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDgx-9Qp_w7kmSycuz9f1P4mZ-usrvT_7Y",
+    authDomain: "web3-8a8d8.firebaseapp.com",
+    projectId: "web3-8a8d8",
+    storageBucket: "web3-8a8d8.appspot.com",
+    messagingSenderId: "743292708594",
+    appId: "1:743292708594:web:aa61c7f8f6b3cb3cdad26b",
+    measurementId: "G-5KCZ8R2Y6X"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+ <!--preload js-->
+ <script src="js/ps.js"></script>
+
+ <script>
+    let counter = document.querySelector('h1');
+let count = 1;
+
+setInterval(()=>{
+
+    counter.innerText = count;
+    count++
+    
+    if(count > 6) location.replace('main.html')
+    
+},900)
+</script>
+
+
+</html>

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="preloader.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/localtest.css" />
+    <link rel="preload" href="font/Aeonik-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="preload" href="font/Aeonik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="preload" href="font/Aeonik-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="font/Aeonik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <title>Document</title>
+  </head>
+  <body onload="move()" style="margin: 0">
+  
+
+    <main style="display: nonme" id="myDiv" class="animate-bottom">
+      <nav class="navbar navbar-light bg-light px-lg-5 px-md-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="logo/Web3Ladies.svg"
+              alt=""
+              class="d-inline-block align-text-top img-fluid"
+            />
+          </a>
+          <form class="d-flex">
+            <a
+              href="#offcanvasExample"
+              data-bs-toggle="offcanvas"
+              aria-controls="offcanvasExample"
+            >
+              Menu
+              <span
+                class="material-icons-outlined"
+                data-bs-toggle="offcanvas"
+                href="#offcanvasExample"
+                aria-controls="offcanvasExample"
+              >
+                menu
+              </span>
+            </a>
+
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                <button
+                  type="button"
+                  class="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="" style="margin-bottom: -5px; margin-left: 50px">
+                  Menu
+                </p>
+                <ul>
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                  <li><a class="dropdown-item" href="mentorship.html">Mentorship</a></li>
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                  <li><a class="dropdown-item" href="#">Token</a></li>
+                  <li><a class="dropdown-item" href="#">Communnity</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <!-- main hero  section -->
+      <div class="container-fluid ps-lg-4 mt-5">
+        <div class="row im p-lg-5 me-lg-5">
+          <div class="col-lg-9 col-md-8">
+            <h2 class="display-4 h fw-bold hero-text mt-lg-5 mt-sm mt-md-4 cursor-scale" data-aos="zoom-in" data-aos-duration="1500">
+              Equipping <span id="gradient">ladies</span> with relevant
+              Blockchain skills to thrive in the Web3 ecosystem
+            </h2>
+            <button type="button" class="btn btn-primary btn-lg mt-5 mb-5 cursor-scale">
+              Join Us Today
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-lg-5">
+        <div class="row mt-5">
+          <div
+            class="col-lg-3 align-self-center mt-5 d-none d-lg-block"
+            style="border-bottom: 0.5px solid #727272"
+          ></div>
+          <div class="col-lg-6 px-5">
+            <h1 class="text-center fw-bold display-5 cursor-scale" data-aos="zoom-in">
+              JOIN OUR
+              COMMUNITY </h1>
+       
+          </div>
+
+          <div
+            class="col-lg-3 align-self-center mt-5 d-none d-lg-block"
+            style="border-bottom: 0.5px solid #727272"
+          ></div>
+        </div>
+      </div>
+
+        <!--join our coommunity-->
+        <div class="container-fluid ps-lg-5  mt-5 ">
+          <div class="row jc p-lg-5 me-lg-5 ">
+             <div class="col-lg-6 col-1 ">
+               
+             </div>
+            
+            <div class="col-lg-6 col-10 mt-sm-5 mt-5"style="margin-left:-5%!important" >
+
+
+                
+
+                  <p class=" ms-sm-0 ms-lg-5" data-aos="fade-left">
+                    We'll work hand in hand together, not only to challenge the status quo but also to create impactful open-sourced solutions as females in the Blockchain space.
+                  </p>
+
+                  <button type="button" class="btn btn-primary btn-lg mt-lg-5 mb-5 mt-sm-3 ms-sm-0 ms-lg-5 cursor-scale">Join Us Today</button>
+              </div>
+             
+          </div>
+
+
+          
+      </div>
+
+      <div class="container-fluid bg-light  p-lg-5">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <h1 class="text-center fw-normal cursor-scale  display-5" data-aos="zoom-in" data-aos-duration="3000">HIGHLIGHTS <br />OF THE WEEK</h1>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+       
+      </div>
+
+      <div style="  padding-bottom: 8%;" class="bg-light">
+      <div id="scroller" class="bg-light" style="width: 95%; height: 200px; margin: 0 auto; ">
+        <div class="innerScrollArea">
+            <ul>
+                <!-- Define photos here -->
+                <li><img src="images/hotw1.png" width="250" height="200" /></li>
+                <li><img src="images/hotw2.png" width="250" height="200" /></li>
+                <li><img src="images/hotw3.png" width="250" height="200" /></li>
+                <li><img src="images/hotw1.png" width="250" height="200" /></li>
+                <li><img src="images/hotw2.png" width="250" height="200" /></li>
+                <li><img src="images/hotw3.png" width="250" height="200" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+      <div class="container-fluid mt-5 p-lg-5">
+        <div class="row mb-3">
+          <div class="col-lg-9">
+            <h3 class=" cursor-scale display-5" data-aos="fade-right" data-aos-duration="2000">HOW WE CREATE IMPACT</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <h1>01</h1>
+          </div>
+
+          <div class="col-lg-3">
+            <h4>Mentorship<br /> Programs</h4>
+          </div>
+
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              voluptatem aut soluta! Quasi vitae rem est praesentium sed, quo
+              soluta sint odit totam porro alias vero placeat culpa libero quia.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <h1>02</h1>
+          </div>
+
+          <div class="col-lg-3">
+            <h4>Monthly <br />Trainings</h4>
+          </div>
+
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              voluptatem aut soluta! Quasi vitae rem est praesentium sed, quo
+              soluta sint odit totam porro alias vero placeat culpa libero quia.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <h1>03</h1>
+          </div>
+
+          <div class="col-lg-3">
+            <h4>Cryptocurrency<br /> Trading Classes</h4>
+          </div>
+
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              voluptatem aut soluta! Quasi vitae rem est praesentium sed, quo
+              soluta sint odit totam porro alias vero placeat culpa libero quia.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <h1>04</h1>
+          </div>
+
+          <div class="col-lg-3">
+            <h4 class="fw-normal">Networking Opportunities</h4>
+          </div>
+
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+              voluptatem aut soluta! Quasi vitae rem est praesentium sed, quo
+              soluta sint odit totam porro alias vero placeat culpa libero quia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-lg-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class=" cursor-scale display-5" data-aos="fade-right" data-aos-duration="3000">YOU CAN BECOME<br /> A SPONSOR</h1>
+            <h4>HERE'S HOW 😊</h4>
+            <button type="button" class="btn btn-primary btn-lg mt-2 cursor-scale">
+              Become a Sponsor
+            </button>
+          </div>
+
+          <div class="col-lg-6 mt-5">
+            <div class="row">
+              <div class="col-lg-3" style="border-left: 3px solid blue">
+                <h1>01</h1>
+              </div>
+              <div class="col-lg-9">
+                <h3>Gaining Access</h3>
+              </div>
+              <div class="col-lg-3"></div>
+              <div class="col-lg-9">
+                <p style="margin-top: -15px !important">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ipsam veritatis quidem alias sint, suscipit eum qui eaque nisi
+                  velit ipsa? Officia, doloribus vitae laudantium dicta tempora
+                  accusamus perferendis rem ea.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3">
+                <h1>02</h1>
+              </div>
+              <div class="col-lg-9">
+                <h3>Condimentum</h3>
+              </div>
+              <div class="col-lg-3"></div>
+              <div class="col-lg-9">
+                <p style="margin-top: -15px !important">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ipsam veritatis quidem alias sint, suscipit eum qui eaque nisi
+                  velit ipsa? Officia, doloribus vitae laudantium dicta tempora
+                  accusamus perferendis rem ea.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3">
+                <h1>03</h1>
+              </div>
+              <div class="col-lg-9">
+                <h3>Quis amet</h3>
+              </div>
+              <div class="col-lg-3"></div>
+              <div class="col-lg-9">
+                <p style="margin-top: -15px !important">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ipsam veritatis quidem alias sint, suscipit eum qui eaque nisi
+                  velit ipsa? Officia, doloribus vitae laudantium dicta tempora
+                  accusamus perferendis rem ea.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-3">
+                <h1>04</h1>
+              </div>
+              <div class="col-lg-9">
+                <h3>Uma posuere</h3>
+              </div>
+              <div class="col-lg-3"></div>
+              <div class="col-lg-9">
+                <p style="margin-top: -15px !important">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Ipsam veritatis quidem alias sint, suscipit eum qui eaque nisi
+                  velit ipsa? Officia, doloribus vitae laudantium dicta tempora
+                  accusamus perferendis rem ea.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        
+      <!--card -->
+      <div class="container-fluid p-lg-5">
+        <div class="row mb-3">
+          <div class="col">
+            <h1>OUR COMMUNITY EVENTS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-12" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="card mb-3" style="max-width: 540px; height: 250px;overflow: hidden;">
+              <div class="row g-0 bg-light" style="max-width: 540px; height: 250px;overflow: hidden;">
+                <div class="col-md-4 col-lg-5 col-5" style="max-width: 540px; height: 250px;overflow: hidden;">
+                  <img style="max-width: auto; height: 250px;"
+                    src="images/card.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8 col-lg-7 col-8">
+                  <div class="card-body bg-light">
+                    <h5 class="card-title">Crypto Series</h5>
+                    <p class="card-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis assumenda iure quidem possimus.
+                     
+                    </p>
+                    <a href="crypto.html"> Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="card mb-3" style="max-width: 540px; height: 250px;overflow: hidden;">
+              <div class="row g-0 bg-light" style="max-width: 540px; height: 250px;overflow: hidden;">
+                <div class="col-md-4 col-lg-5 col-5" style="max-width: 540px; height: 250px;overflow: hidden;">
+                  <img style="max-width: auto; height: 250px;"
+                    src="images/card.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8 col-lg-7 col-8">
+                  <div class="card-body bg-light">
+                    <h5 class="card-title">Crypto Series</h5>
+                    <p class="card-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis assumenda iure quidem possimus.
+                     
+                    </p>
+                    <a href="crypto.html"> Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="card mb-3" style="max-width: 540px; height: 250px;overflow: hidden;">
+              <div class="row g-0 bg-light" style="max-width: 540px; height: 250px;overflow: hidden;">
+                <div class="col-md-4 col-lg-5 col-5" style="max-width: 540px; height: 250px;overflow: hidden;">
+                  <img style="max-width: auto; height: 250px;"
+                    src="images/card.png"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8 col-lg-7 col-8">
+                  <div class="card-body bg-light">
+                    <h5 class="card-title">Crypto Series</h5>
+                    <p class="card-text">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Blanditiis assumenda iure quidem possimus.
+                     
+                    </p>
+                    <a href="crypto.html"> Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+<!--our word -->
+      <div class="container-fluid p-lg-5 bg-light g-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="mt-3 cursor-scale display-4">
+              YOU DONT<br /> HAVE TO TAKE <br />
+              OUR WORD<br />
+              FOR IT
+            </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+
+            <button type="button" class="btn btn-primary btn-lg mt-2 cursor-scale">
+              Read More
+            </button>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="p-3">
+              <div class="row p-2" style="background-color: white">
+                <div class="col-lg-12">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore odio quia pariatur harum reprehenderit porro
+                    sequi,laudantium debitis. Voluptas hic minus provident
+                    voluptatem dolores aspernatur quis aut voluptates? minus
+                    sint laudantium debitis. Voluptas hic minus provident
+                    voluptatem dolores aspernatur quis aut voluptates?
+                  </p>
+
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <img src="images/jane1.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-9">
+                      <h6 class="fw-bold">Jane Doe</h6>
+                      <p>React Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- you dont hv to take our word for it  small box-->
+              <div class="row mt-3 p-2" style="background-color: white">
+                <div class="col-lg-12 p-2">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore odio quia pariatur harum reprehenderit porro
+                    sequi,laudantium debitis.
+                  </p>
+
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <img src="images/jane2.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-9">
+                      <h6 class="fw-bold">Jane Doe</h6>
+                      <p>Software Engineer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--las side of you dnt hv to-->
+
+          <div class="col-lg-3">
+            <div class="p-3">
+              <div class="row p-2" style="background-color: white">
+                <div class="col-lg-12">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore odio quia pariatur harum reprehenderit porro
+                    sequi,laudantium debitis. Voluptas hic minus provident
+                    voluptatem dolores aspernatur quis aut voluptates? minus
+                    sint laudantium debitis. Voluptas hic minus provident
+                    voluptatem dolores aspernatur quis aut voluptates?
+                  </p>
+
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <img src="images/jane3.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-9">
+                      <h6 class="fw-bold">Jane Doe</h6>
+                      <p>Front End Dev</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--logo -->
+      <div class="container-fluid p-lg-5">
+        <div class="row text-center justify-content-center align-items-center">
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="500">
+            <img src="images/log1.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="1000">
+            <img src="images/logo2.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="1500">
+            <img src="images/logo3.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="2000">
+            <img src="images/logo4.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="2500">
+            <img src="images/logo5.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg col" data-aos="fade-right" data-aos-duration="3000">
+            <img src="images/logo6.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--footer -->
+<div class="container-fluid b mt-5 px-lg-5 pt-5 footer" style="height: 700px;" >
+
+  <div class="row">
+
+<div class="col-lg-4 col-12">
+  <h2>
+    BUILDING THE IDEAL AFRICAN TECH LADY
+</h2>
+
+<p class="mt-3" style="color: white;">
+  Building the ideal African tech lady,Raising self confidence,self aware ladies with the fighting chance to compete favourably in the Blockchain and tech space
+</p>
+</div>
+
+<div class="col-lg-1 d-none d-sm-none d-lg-block">
+  
+</div>
+
+<div class="col-lg-3 col-6 ">
+  <h6 class="  ms-4">
+    Quick  links
+  </h6>
+  <div class="row ftlink " >
+    <div class="col-lg-6 col-6">
+      <ul>
+        <li>
+          <a href="#">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Sponsor
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Team
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            Jobs
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-6 col-6">
+      <ul>
+        <li>
+          <a href="#">
+            Token
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Event
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Mentorship
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Community
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+<div class="col-lg-1 col-1">
+  
+</div>
+
+<div class="col-lg-3 col-5">
+  <h6 class="ms-4">
+    Quick  links
+  </h6>
+  <div class="row ftlink" >
+    <div class="col-lg-6">
+      <ul>
+        <li>
+          <a href="#">
+            Contact
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Facebook
+          </a>
+        </li>
+
+        
+      </ul>
+    </div>
+    
+
+
+</div>
+</div>
+
+
+
+  </div>
+
+  <div class="row mt-5" style="margin-top: 35%!important;">
+
+    <div class="col">
+      <p class="text-center">
+        Copyright &copy; 2021 Ladies Do Tech. All rights reserved.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+      <div class="cursor"></div>
+    </main><!--autoscroll-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+<script src="js/autoscroll.js"></script>
+
+   
+  
+
+  </body>
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDgx-9Qp_w7kmSycuz9f1P4mZ-usrvT_7Y",
+    authDomain: "web3-8a8d8.firebaseapp.com",
+    projectId: "web3-8a8d8",
+    storageBucket: "web3-8a8d8.appspot.com",
+    messagingSenderId: "743292708594",
+    appId: "1:743292708594:web:aa61c7f8f6b3cb3cdad26b",
+    measurementId: "G-5KCZ8R2Y6X"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  <!--cursor js-->
+  <script src="js/cursor.js">
+  
+   </script>
+
+  <!--cursor-->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js">
+
+  </script>
+  <script src="js/main.js">
+
+  </script>
+
+<script>
+  AOS.init();
+</script>
+
+  <!--bootstrap-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+
+
+
+
+
+
+</html>

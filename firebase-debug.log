@@ -1,0 +1,76 @@
+[debug] [2022-05-16T15:47:35.440Z] ----------------------------------------------------------------------
+[debug] [2022-05-16T15:47:35.442Z] Command:       C:\Users\weware\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\weware\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2022-05-16T15:47:35.442Z] CLI Version:   10.9.2
+[debug] [2022-05-16T15:47:35.442Z] Platform:      win32
+[debug] [2022-05-16T15:47:35.443Z] Node Version:  v12.18.1
+[debug] [2022-05-16T15:47:35.443Z] Time:          Mon May 16 2022 16:47:35 GMT+0100 (West Africa Standard Time)
+[debug] [2022-05-16T15:47:35.444Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-16T15:47:35.451Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-16T15:47:35.452Z] > authorizing via signed-in user (ugleenerd@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\weware\Desktop\admin jesica\web3 ladies
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-16T15:51:27.145Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-05-16T15:51:28.058Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-05-16T15:51:28.058Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project web3-8a8d8 (web3) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2022-05-16T15:52:44.945Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-05-16T15:52:45.722Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-05-16T15:52:45.723Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.1","browserURL":"https://www.gstatic.com/firebasejs/9.8.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.1/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.1/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\weware\Desktop\admin jesica\web3 ladies is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=153912304&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-05-16T15:54:10.971Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"bf3aa6ab462827a1f426","redirect_uri":"http://localhost:9005","state":"153912304"}
+[debug] [2022-05-16T15:54:11.859Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 16 May 2022 15:54:12 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"651b15438e6e44a7c773dcbb47cda918\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"CBF6:E137:D0994A:DC121B:628273A3"}
+[debug] [2022-05-16T15:54:11.867Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-05-16T15:54:12.616Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-05-16T15:54:12.616Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ugleenerd11","id":42437447,"node_id":"MDQ6VXNlcjQyNDM3NDQ3","avatar_url":"https://avatars.githubusercontent.com/u/42437447?v=4","gravatar_id":"","url":"https://api.github.com/users/ugleenerd11","html_url":"https://github.com/ugleenerd11","followers_url":"https://api.github.com/users/ugleenerd11/followers","following_url":"https://api.github.com/users/ugleenerd11/following{/other_user}","gists_url":"https://api.github.com/users/ugleenerd11/gists{/gist_id}","starred_url":"https://api.github.com/users/ugleenerd11/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ugleenerd11/subscriptions","organizations_url":"https://api.github.com/users/ugleenerd11/orgs","repos_url":"https://api.github.com/users/ugleenerd11/repos","events_url":"https://api.github.com/users/ugleenerd11/events{/privacy}","received_events_url":"https://api.github.com/users/ugleenerd11/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":2,"public_gists":0,"followers":0,"following":1,"created_at":"2018-08-16T10:20:33Z","updated_at":"2022-01-21T12:54:39Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":2294,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as ugleenerd11 
+[info] 
+[debug] [2022-05-16T15:55:44.980Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2022-05-16T15:55:45.689Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2022-05-16T15:55:45.689Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-05-16T15:56:21.907Z] >>> [apiv2][query] GET https://api.github.com/repos/user/repository/actions/secrets/public-key type=owner
+[debug] [2022-05-16T15:56:22.644Z] <<< [apiv2][status] GET https://api.github.com/repos/user/repository/actions/secrets/public-key 404
+[debug] [2022-05-16T15:56:22.644Z] <<< [apiv2][body] GET https://api.github.com/repos/user/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-05-16T15:58:59.099Z] >>> [apiv2][query] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key type=owner
+[debug] [2022-05-16T15:58:59.938Z] <<< [apiv2][status] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key 404
+[debug] [2022-05-16T15:58:59.939Z] <<< [apiv2][body] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-05-16T15:59:03.121Z] >>> [apiv2][query] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key type=owner
+[debug] [2022-05-16T15:59:03.743Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-05-16T15:59:03.807Z] <<< [apiv2][status] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key 404
+[debug] [2022-05-16T15:59:03.808Z] <<< [apiv2][body] GET https://api.github.com/repos/web3ladies/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-05-16T15:59:04.359Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-05-16T15:59:04.359Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
